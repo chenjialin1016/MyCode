@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ADBDBFC22F3C4DF0037514F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBDBFB22F3C4DF0037514F /* AppDelegate.swift */; };
+		0ADBDBFE22F3C4DF0037514F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBDBFD22F3C4DF0037514F /* ViewController.swift */; };
+		0ADBDC0122F3C4DF0037514F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDBFF22F3C4DF0037514F /* Main.storyboard */; };
+		0ADBDC0322F3C4E20037514F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC0222F3C4E20037514F /* Assets.xcassets */; };
+		0ADBDC0622F3C4E20037514F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC0422F3C4E20037514F /* LaunchScreen.storyboard */; };
+		0ADBDC6B22F3C5A50037514F /* Head First Design Patterns_设计模式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC5622F3C5A50037514F /* Head First Design Patterns_设计模式.pdf */; };
+		0ADBDC6C22F3C5A50037514F /* Command Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBDC5822F3C5A50037514F /* Command Pattern.swift */; };
+		0ADBDC6D22F3C5A50037514F /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBDC5922F3C5A50037514F /* DecoratorPattern.swift */; };
+		0ADBDC6E22F3C5A50037514F /* DesignPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBDC5A22F3C5A50037514F /* DesignPatterns.swift */; };
+		0ADBDC6F22F3C5A50037514F /* FactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBDC5B22F3C5A50037514F /* FactoryPattern.swift */; };
+		0ADBDC7022F3C5A50037514F /* Foundation自带的通知模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC5C22F3C5A50037514F /* Foundation自带的通知模式.png */; };
+		0ADBDC7122F3C5A50037514F /* ObservePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBDC5D22F3C5A50037514F /* ObservePattern.swift */; };
+		0ADBDC7222F3C5A50037514F /* Singleton Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBDC5E22F3C5A50037514F /* Singleton Pattern.swift */; };
+		0ADBDC7322F3C5A50037514F /* StrategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBDC5F22F3C5A50037514F /* StrategyPattern.swift */; };
+		0ADBDC7422F3C5A50037514F /* 命令模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC6022F3C5A50037514F /* 命令模式.png */; };
+		0ADBDC7522F3C5A50037514F /* 工厂方法模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC6122F3C5A50037514F /* 工厂方法模式.png */; };
+		0ADBDC7622F3C5A50037514F /* 抽象工厂+工厂方法模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC6222F3C5A50037514F /* 抽象工厂+工厂方法模式.png */; };
+		0ADBDC7722F3C5A50037514F /* 抽象工厂模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC6322F3C5A50037514F /* 抽象工厂模式.png */; };
+		0ADBDC7822F3C5A50037514F /* 无工厂模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC6422F3C5A50037514F /* 无工厂模式.png */; };
+		0ADBDC7922F3C5A50037514F /* 策略模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC6522F3C5A50037514F /* 策略模式.png */; };
+		0ADBDC7A22F3C5A50037514F /* 简单工厂模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC6622F3C5A50037514F /* 简单工厂模式.png */; };
+		0ADBDC7B22F3C5A50037514F /* 自定义通知中心.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC6722F3C5A50037514F /* 自定义通知中心.png */; };
+		0ADBDC7C22F3C5A50037514F /* 装饰者模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC6822F3C5A50037514F /* 装饰者模式.png */; };
+		0ADBDC7D22F3C5A50037514F /* 装饰者模式函数调用图示.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC6922F3C5A50037514F /* 装饰者模式函数调用图示.png */; };
+		0ADBDC7E22F3C5A50037514F /* 观察者模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDC6A22F3C5A50037514F /* 观察者模式.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ADBDBF822F3C4DF0037514F /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ADBDBFB22F3C4DF0037514F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0ADBDBFD22F3C4DF0037514F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0ADBDC0022F3C4DF0037514F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0ADBDC0222F3C4E20037514F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ADBDC0522F3C4E20037514F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0ADBDC0722F3C4E20037514F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ADBDC5622F3C5A50037514F /* Head First Design Patterns_设计模式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Head First Design Patterns_设计模式.pdf"; sourceTree = "<group>"; };
+		0ADBDC5822F3C5A50037514F /* Command Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Command Pattern.swift"; sourceTree = "<group>"; };
+		0ADBDC5922F3C5A50037514F /* DecoratorPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
+		0ADBDC5A22F3C5A50037514F /* DesignPatterns.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignPatterns.swift; sourceTree = "<group>"; };
+		0ADBDC5B22F3C5A50037514F /* FactoryPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryPattern.swift; sourceTree = "<group>"; };
+		0ADBDC5C22F3C5A50037514F /* Foundation自带的通知模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Foundation自带的通知模式.png"; sourceTree = "<group>"; };
+		0ADBDC5D22F3C5A50037514F /* ObservePattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservePattern.swift; sourceTree = "<group>"; };
+		0ADBDC5E22F3C5A50037514F /* Singleton Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Singleton Pattern.swift"; sourceTree = "<group>"; };
+		0ADBDC5F22F3C5A50037514F /* StrategyPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyPattern.swift; sourceTree = "<group>"; };
+		0ADBDC6022F3C5A50037514F /* 命令模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "命令模式.png"; sourceTree = "<group>"; };
+		0ADBDC6122F3C5A50037514F /* 工厂方法模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂方法模式.png"; sourceTree = "<group>"; };
+		0ADBDC6222F3C5A50037514F /* 抽象工厂+工厂方法模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抽象工厂+工厂方法模式.png"; sourceTree = "<group>"; };
+		0ADBDC6322F3C5A50037514F /* 抽象工厂模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抽象工厂模式.png"; sourceTree = "<group>"; };
+		0ADBDC6422F3C5A50037514F /* 无工厂模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无工厂模式.png"; sourceTree = "<group>"; };
+		0ADBDC6522F3C5A50037514F /* 策略模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "策略模式.png"; sourceTree = "<group>"; };
+		0ADBDC6622F3C5A50037514F /* 简单工厂模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简单工厂模式.png"; sourceTree = "<group>"; };
+		0ADBDC6722F3C5A50037514F /* 自定义通知中心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自定义通知中心.png"; sourceTree = "<group>"; };
+		0ADBDC6822F3C5A50037514F /* 装饰者模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "装饰者模式.png"; sourceTree = "<group>"; };
+		0ADBDC6922F3C5A50037514F /* 装饰者模式函数调用图示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "装饰者模式函数调用图示.png"; sourceTree = "<group>"; };
+		0ADBDC6A22F3C5A50037514F /* 观察者模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "观察者模式.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ADBDBF522F3C4DF0037514F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ADBDBEF22F3C4DF0037514F = {
+			isa = PBXGroup;
+			children = (
+				0ADBDBFA22F3C4DF0037514F /* DesignPattern */,
+				0ADBDBF922F3C4DF0037514F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ADBDBF922F3C4DF0037514F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ADBDBF822F3C4DF0037514F /* DesignPattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ADBDBFA22F3C4DF0037514F /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				0ADBDBFB22F3C4DF0037514F /* AppDelegate.swift */,
+				0ADBDBFD22F3C4DF0037514F /* ViewController.swift */,
+				0ADBDC5522F3C5A50037514F /* book */,
+				0ADBDC5722F3C5A50037514F /* DesignPatterns */,
+				0ADBDBFF22F3C4DF0037514F /* Main.storyboard */,
+				0ADBDC0222F3C4E20037514F /* Assets.xcassets */,
+				0ADBDC0422F3C4E20037514F /* LaunchScreen.storyboard */,
+				0ADBDC0722F3C4E20037514F /* Info.plist */,
+			);
+			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		0ADBDC5522F3C5A50037514F /* book */ = {
+			isa = PBXGroup;
+			children = (
+				0ADBDC5622F3C5A50037514F /* Head First Design Patterns_设计模式.pdf */,
+			);
+			name = book;
+			path = ../../CodeReview/CodeReview/book;
+			sourceTree = "<group>";
+		};
+		0ADBDC5722F3C5A50037514F /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				0ADBDC5822F3C5A50037514F /* Command Pattern.swift */,
+				0ADBDC5922F3C5A50037514F /* DecoratorPattern.swift */,
+				0ADBDC5A22F3C5A50037514F /* DesignPatterns.swift */,
+				0ADBDC5B22F3C5A50037514F /* FactoryPattern.swift */,
+				0ADBDC5C22F3C5A50037514F /* Foundation自带的通知模式.png */,
+				0ADBDC5D22F3C5A50037514F /* ObservePattern.swift */,
+				0ADBDC5E22F3C5A50037514F /* Singleton Pattern.swift */,
+				0ADBDC5F22F3C5A50037514F /* StrategyPattern.swift */,
+				0ADBDC6022F3C5A50037514F /* 命令模式.png */,
+				0ADBDC6122F3C5A50037514F /* 工厂方法模式.png */,
+				0ADBDC6222F3C5A50037514F /* 抽象工厂+工厂方法模式.png */,
+				0ADBDC6322F3C5A50037514F /* 抽象工厂模式.png */,
+				0ADBDC6422F3C5A50037514F /* 无工厂模式.png */,
+				0ADBDC6522F3C5A50037514F /* 策略模式.png */,
+				0ADBDC6622F3C5A50037514F /* 简单工厂模式.png */,
+				0ADBDC6722F3C5A50037514F /* 自定义通知中心.png */,
+				0ADBDC6822F3C5A50037514F /* 装饰者模式.png */,
+				0ADBDC6922F3C5A50037514F /* 装饰者模式函数调用图示.png */,
+				0ADBDC6A22F3C5A50037514F /* 观察者模式.png */,
+			);
+			name = DesignPatterns;
+			path = ../../CodeReview/CodeReview/DesignPatterns;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ADBDBF722F3C4DF0037514F /* DesignPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ADBDC0A22F3C4E20037514F /* Build configuration list for PBXNativeTarget "DesignPattern" */;
+			buildPhases = (
+				0ADBDBF422F3C4DF0037514F /* Sources */,
+				0ADBDBF522F3C4DF0037514F /* Frameworks */,
+				0ADBDBF622F3C4DF0037514F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignPattern;
+			productName = DesignPattern;
+			productReference = 0ADBDBF822F3C4DF0037514F /* DesignPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ADBDBF022F3C4DF0037514F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CJL;
+				TargetAttributes = {
+					0ADBDBF722F3C4DF0037514F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 0ADBDBF322F3C4DF0037514F /* Build configuration list for PBXProject "DesignPattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0ADBDBEF22F3C4DF0037514F;
+			productRefGroup = 0ADBDBF922F3C4DF0037514F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ADBDBF722F3C4DF0037514F /* DesignPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ADBDBF622F3C4DF0037514F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADBDC7C22F3C5A50037514F /* 装饰者模式.png in Resources */,
+				0ADBDC7522F3C5A50037514F /* 工厂方法模式.png in Resources */,
+				0ADBDC7E22F3C5A50037514F /* 观察者模式.png in Resources */,
+				0ADBDC7922F3C5A50037514F /* 策略模式.png in Resources */,
+				0ADBDC7022F3C5A50037514F /* Foundation自带的通知模式.png in Resources */,
+				0ADBDC0622F3C4E20037514F /* LaunchScreen.storyboard in Resources */,
+				0ADBDC0322F3C4E20037514F /* Assets.xcassets in Resources */,
+				0ADBDC7A22F3C5A50037514F /* 简单工厂模式.png in Resources */,
+				0ADBDC6B22F3C5A50037514F /* Head First Design Patterns_设计模式.pdf in Resources */,
+				0ADBDC7722F3C5A50037514F /* 抽象工厂模式.png in Resources */,
+				0ADBDC7422F3C5A50037514F /* 命令模式.png in Resources */,
+				0ADBDC7822F3C5A50037514F /* 无工厂模式.png in Resources */,
+				0ADBDC7B22F3C5A50037514F /* 自定义通知中心.png in Resources */,
+				0ADBDC0122F3C4DF0037514F /* Main.storyboard in Resources */,
+				0ADBDC7D22F3C5A50037514F /* 装饰者模式函数调用图示.png in Resources */,
+				0ADBDC7622F3C5A50037514F /* 抽象工厂+工厂方法模式.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ADBDBF422F3C4DF0037514F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADBDC6E22F3C5A50037514F /* DesignPatterns.swift in Sources */,
+				0ADBDC7322F3C5A50037514F /* StrategyPattern.swift in Sources */,
+				0ADBDBFE22F3C4DF0037514F /* ViewController.swift in Sources */,
+				0ADBDC6C22F3C5A50037514F /* Command Pattern.swift in Sources */,
+				0ADBDC7222F3C5A50037514F /* Singleton Pattern.swift in Sources */,
+				0ADBDC6F22F3C5A50037514F /* FactoryPattern.swift in Sources */,
+				0ADBDC6D22F3C5A50037514F /* DecoratorPattern.swift in Sources */,
+				0ADBDBFC22F3C4DF0037514F /* AppDelegate.swift in Sources */,
+				0ADBDC7122F3C5A50037514F /* ObservePattern.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0ADBDBFF22F3C4DF0037514F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ADBDC0022F3C4DF0037514F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0ADBDC0422F3C4E20037514F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ADBDC0522F3C4E20037514F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0ADBDC0822F3C4E20037514F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0ADBDC0922F3C4E20037514F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ADBDC0B22F3C4E20037514F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesignPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjl.DesignPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0ADBDC0C22F3C4E20037514F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesignPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjl.DesignPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ADBDBF322F3C4DF0037514F /* Build configuration list for PBXProject "DesignPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ADBDC0822F3C4E20037514F /* Debug */,
+				0ADBDC0922F3C4E20037514F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ADBDC0A22F3C4E20037514F /* Build configuration list for PBXNativeTarget "DesignPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ADBDC0B22F3C4E20037514F /* Debug */,
+				0ADBDC0C22F3C4E20037514F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ADBDBF022F3C4DF0037514F /* Project object */;
+}
