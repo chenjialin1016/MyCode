@@ -32,6 +32,8 @@
 		0A2A609D22FAB3A900F9C187 /* FacadePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A609C22FAB3A900F9C187 /* FacadePattern.swift */; };
 		0A2A60A022FAB63500F9C187 /* 外观模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2A609E22FAB63500F9C187 /* 外观模式.png */; };
 		0A2A60A122FAB63500F9C187 /* 无外观模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2A609F22FAB63500F9C187 /* 无外观模式.png */; };
+		0A6F85F2230FD56D00A5E966 /* TemplateMethodPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F85F1230FD56D00A5E966 /* TemplateMethodPattern.swift */; };
+		0A6F85F4230FDF5100A5E966 /* 模版方法模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A6F85F3230FDF5000A5E966 /* 模版方法模式.png */; };
 		0ADBDBFC22F3C4DF0037514F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBDBFB22F3C4DF0037514F /* AppDelegate.swift */; };
 		0ADBDBFE22F3C4DF0037514F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBDBFD22F3C4DF0037514F /* ViewController.swift */; };
 		0ADBDC0122F3C4DF0037514F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBDBFF22F3C4DF0037514F /* Main.storyboard */; };
@@ -65,6 +67,8 @@
 		0A2A609C22FAB3A900F9C187 /* FacadePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePattern.swift; sourceTree = "<group>"; };
 		0A2A609E22FAB63500F9C187 /* 外观模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "外观模式.png"; sourceTree = "<group>"; };
 		0A2A609F22FAB63500F9C187 /* 无外观模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无外观模式.png"; sourceTree = "<group>"; };
+		0A6F85F1230FD56D00A5E966 /* TemplateMethodPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodPattern.swift; sourceTree = "<group>"; };
+		0A6F85F3230FDF5000A5E966 /* 模版方法模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "模版方法模式.png"; sourceTree = "<group>"; };
 		0ADBDBF822F3C4DF0037514F /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADBDBFB22F3C4DF0037514F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ADBDBFD22F3C4DF0037514F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				0A2A609C22FAB3A900F9C187 /* FacadePattern.swift */,
 				0A2A609F22FAB63500F9C187 /* 无外观模式.png */,
 				0A2A609E22FAB63500F9C187 /* 外观模式.png */,
+				0A6F85F1230FD56D00A5E966 /* TemplateMethodPattern.swift */,
+				0A6F85F3230FDF5000A5E966 /* 模版方法模式.png */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 				0ADBDC0322F3C4E20037514F /* Assets.xcassets in Resources */,
 				0A03665F22F913E300AE6D43 /* 策略模式.png in Resources */,
 				0A03665622F913E300AE6D43 /* Foundation自带的通知模式.png in Resources */,
+				0A6F85F4230FDF5100A5E966 /* 模版方法模式.png in Resources */,
 				0A03666B22F919B800AE6D43 /* 适配器类图.png in Resources */,
 				0A03666022F913E300AE6D43 /* 简单工厂模式.png in Resources */,
 				0A03665E22F913E300AE6D43 /* 无工厂模式.png in Resources */,
@@ -243,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A2A609D22FAB3A900F9C187 /* FacadePattern.swift in Sources */,
+				0A6F85F2230FD56D00A5E966 /* TemplateMethodPattern.swift in Sources */,
 				0A03665522F913E300AE6D43 /* FactoryPattern.swift in Sources */,
 				0A03665922F913E300AE6D43 /* StrategyPattern.swift in Sources */,
 				0A03665322F913E300AE6D43 /* DecoratorPattern.swift in Sources */,

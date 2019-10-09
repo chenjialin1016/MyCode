@@ -227,6 +227,20 @@ func designPatternsTest(){
     everyDayWorking.endWorking()
     print("\n")
     
+    
+    print("==============模版方法模式==============")
+    print("============1:无模版方法模式")
+    let fryShreddedPotatoes : FryShreddedPotatoes = FryShreddedPotatoes()
+    fryShreddedPotatoes.fryShreddedPotatoes()
+    let fryBitterGourd : FryBitterGourd = FryBitterGourd()
+    fryBitterGourd.fryBitterGourd()
+    print("============2:有模版方法模式")
+    let fryShreddedPotatoes2 : FryShreddedPotatoes2 = FryShreddedPotatoes2()
+    fryShreddedPotatoes2.fry()
+    let fryBitterGourd2 : FryBitterGourd2 = FryBitterGourd2()
+    fryBitterGourd2.fry()
+    print("\n")
+    
 }
 
 //查看对象内存地址

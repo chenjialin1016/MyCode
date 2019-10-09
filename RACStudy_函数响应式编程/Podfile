@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RACStudy' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+	pod "AFNetworking"
+  	pod 'MBProgressHUD', '~> 0.8'
+	pod 'SDWebImage'
+	pod 'SnapKit'
+	pod 'MJRefresh'
+	pod 'JSONModel'
+	pod 'ReactiveCocoa', '=2.3'
+	pod 'Reveal-iOS-SDK', :configurations => ['Debug']
+
+  # Pods for RACStudy
+
+end
