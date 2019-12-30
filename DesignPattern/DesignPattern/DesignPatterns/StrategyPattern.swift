@@ -259,3 +259,36 @@ class FlyAutomaticPower : Flyable{
         print("我是用发动机飞的鸭子")
     }
 }
+
+
+
+
+
+//MARK:---------测试用例
+func test_StrategyPattern(){
+    print("==============策略模式==============")
+    //中尉
+    let lieutenant : Lieutenant = Lieutenant()
+    lieutenant.fire()
+    print("\n手枪火力不行，得换HK48\n")
+    lieutenant.changeHK()
+    lieutenant.fire()
+    
+    print("\n-----某些鸭子增加飞行的能力")
+    //    print("鸭子：使用延展")
+    //    let mallarDuck : MallarDuck = MallarDuck()
+    //    mallarDuck.fly()
+    
+    print("鸭子：使用接口")
+    var duck : Duck = MallarDuck()
+    duck.performFly()
+    duck.setFlyBehavior(FlyNoWay())
+    duck.performFly()
+    print("-----创建一个模型鸭子，且会飞")
+    duck = ModelDuck()
+    duck.performFly()
+    print("-----给模型鸭子装发动机，支持飞")
+    duck.setFlyBehavior(FlyAutomaticPower())
+    duck.performFly()
+    print("\n")
+}

@@ -135,3 +135,25 @@ class FryBitterGourd2: FryVegetablesType{
         print("放盐！")
     }
 }
+
+
+
+
+
+
+
+//MARK:---------测试用例
+func test_TemplateMethodPattern(){
+    print("==============模版方法模式==============")
+    print("============1:无模版方法模式")
+    let fryShreddedPotatoes : FryShreddedPotatoes = FryShreddedPotatoes()
+    fryShreddedPotatoes.fryShreddedPotatoes()
+    let fryBitterGourd : FryBitterGourd = FryBitterGourd()
+    fryBitterGourd.fryBitterGourd()
+    print("============2:有模版方法模式")
+    let fryShreddedPotatoes2 : FryShreddedPotatoes2 = FryShreddedPotatoes2()
+    fryShreddedPotatoes2.fry()
+    let fryBitterGourd2 : FryBitterGourd2 = FryBitterGourd2()
+    fryBitterGourd2.fry()
+    print("\n")
+}

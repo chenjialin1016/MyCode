@@ -58,3 +58,20 @@ class SingletonManager1{
     }
     private init() {}
 }
+
+
+
+
+//MARK:---------测试用例
+func test_SingletonPattern(){
+    print("==============单例模式==============")
+    print("------GCD实现单例")
+    let singleton1 = SingletonManager.sharedInstance()
+    let singleton2 = SingletonManager.sharedInstance()
+    printAdress(singleton1 as AnyObject, singleton2 as AnyObject)
+    print("------静态实现单例")
+    let singleton3 = SingletonManager1.sharedInstance()
+    let singleton4 = SingletonManager1.sharedInstance()
+    printAdress(singleton3 as AnyObject, singleton4 as AnyObject)
+    print("\n")
+}

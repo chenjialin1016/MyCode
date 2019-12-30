@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050352ED2384E68800150D3C /* ProxyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050352EC2384E68800150D3C /* ProxyPattern.swift */; };
+		050352EF2384E99700150D3C /* 代理模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 050352EE2384E99700150D3C /* 代理模式.png */; };
+		0538B6BF237400B200CC44CF /* CompositePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538B6BE237400B200CC44CF /* CompositePattern.swift */; };
+		0538B6C12374038000CC44CF /* 组合模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 0538B6C02374038000CC44CF /* 组合模式.png */; };
+		0560E783236049B600C2C5E7 /* IteratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560E782236049B600C2C5E7 /* IteratorPattern.swift */; };
+		057350002369785C0074A52C /* 无迭代器.png in Resources */ = {isa = PBXBuildFile; fileRef = 05734FFE2369785B0074A52C /* 无迭代器.png */; };
+		057350012369785C0074A52C /* 工厂方法+迭代器.png in Resources */ = {isa = PBXBuildFile; fileRef = 05734FFF2369785B0074A52C /* 工厂方法+迭代器.png */; };
+		05E368B0237BEEBC00C7D962 /* StatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E368AF237BEEBC00C7D962 /* StatePattern.swift */; };
+		05E368B3237C14FC00C7D962 /* 无状态模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E368B1237C14FC00C7D962 /* 无状态模式.png */; };
+		05E368B4237C14FC00C7D962 /* 有状态模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E368B2237C14FC00C7D962 /* 有状态模式.png */; };
 		0A03665222F913E300AE6D43 /* Command Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03663F22F913E300AE6D43 /* Command Pattern.swift */; };
 		0A03665322F913E300AE6D43 /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03664022F913E300AE6D43 /* DecoratorPattern.swift */; };
 		0A03665422F913E300AE6D43 /* DesignPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03664122F913E300AE6D43 /* DesignPatterns.swift */; };
@@ -42,6 +52,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		050352EC2384E68800150D3C /* ProxyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyPattern.swift; sourceTree = "<group>"; };
+		050352EE2384E99700150D3C /* 代理模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代理模式.png"; sourceTree = "<group>"; };
+		0538B6BE237400B200CC44CF /* CompositePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePattern.swift; sourceTree = "<group>"; };
+		0538B6C02374038000CC44CF /* 组合模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "组合模式.png"; sourceTree = "<group>"; };
+		0560E782236049B600C2C5E7 /* IteratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorPattern.swift; sourceTree = "<group>"; };
+		05734FFE2369785B0074A52C /* 无迭代器.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无迭代器.png"; sourceTree = "<group>"; };
+		05734FFF2369785B0074A52C /* 工厂方法+迭代器.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂方法+迭代器.png"; sourceTree = "<group>"; };
+		05E368AF237BEEBC00C7D962 /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
+		05E368B1237C14FC00C7D962 /* 无状态模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无状态模式.png"; sourceTree = "<group>"; };
+		05E368B2237C14FC00C7D962 /* 有状态模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "有状态模式.png"; sourceTree = "<group>"; };
 		0A03663F22F913E300AE6D43 /* Command Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Command Pattern.swift"; sourceTree = "<group>"; };
 		0A03664022F913E300AE6D43 /* DecoratorPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
 		0A03664122F913E300AE6D43 /* DesignPatterns.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignPatterns.swift; sourceTree = "<group>"; };
@@ -118,6 +138,16 @@
 				0A2A609E22FAB63500F9C187 /* 外观模式.png */,
 				0A6F85F1230FD56D00A5E966 /* TemplateMethodPattern.swift */,
 				0A6F85F3230FDF5000A5E966 /* 模版方法模式.png */,
+				0560E782236049B600C2C5E7 /* IteratorPattern.swift */,
+				05734FFE2369785B0074A52C /* 无迭代器.png */,
+				05734FFF2369785B0074A52C /* 工厂方法+迭代器.png */,
+				0538B6BE237400B200CC44CF /* CompositePattern.swift */,
+				0538B6C02374038000CC44CF /* 组合模式.png */,
+				05E368AF237BEEBC00C7D962 /* StatePattern.swift */,
+				05E368B1237C14FC00C7D962 /* 无状态模式.png */,
+				05E368B2237C14FC00C7D962 /* 有状态模式.png */,
+				050352EC2384E68800150D3C /* ProxyPattern.swift */,
+				050352EE2384E99700150D3C /* 代理模式.png */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -220,23 +250,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A03665B22F913E300AE6D43 /* 工厂方法模式.png in Resources */,
+				057350012369785C0074A52C /* 工厂方法+迭代器.png in Resources */,
 				0A03665C22F913E300AE6D43 /* 抽象工厂+工厂方法模式.png in Resources */,
 				0A03666122F913E300AE6D43 /* 自定义通知中心.png in Resources */,
+				0538B6C12374038000CC44CF /* 组合模式.png in Resources */,
 				0A03665A22F913E300AE6D43 /* 命令模式.png in Resources */,
 				0ADBDC0622F3C4E20037514F /* LaunchScreen.storyboard in Resources */,
 				0ADBDC0322F3C4E20037514F /* Assets.xcassets in Resources */,
 				0A03665F22F913E300AE6D43 /* 策略模式.png in Resources */,
 				0A03665622F913E300AE6D43 /* Foundation自带的通知模式.png in Resources */,
 				0A6F85F4230FDF5100A5E966 /* 模版方法模式.png in Resources */,
+				05E368B3237C14FC00C7D962 /* 无状态模式.png in Resources */,
 				0A03666B22F919B800AE6D43 /* 适配器类图.png in Resources */,
+				057350002369785C0074A52C /* 无迭代器.png in Resources */,
 				0A03666022F913E300AE6D43 /* 简单工厂模式.png in Resources */,
 				0A03665E22F913E300AE6D43 /* 无工厂模式.png in Resources */,
 				0ADBDC0122F3C4DF0037514F /* Main.storyboard in Resources */,
 				0A03666222F913E300AE6D43 /* 装饰者模式.png in Resources */,
+				050352EF2384E99700150D3C /* 代理模式.png in Resources */,
 				0A2A60A022FAB63500F9C187 /* 外观模式.png in Resources */,
 				0A03666322F913E300AE6D43 /* 装饰者模式函数调用图示.png in Resources */,
 				0A2A60A122FAB63500F9C187 /* 无外观模式.png in Resources */,
 				0A03666422F913E300AE6D43 /* 观察者模式.png in Resources */,
+				05E368B4237C14FC00C7D962 /* 有状态模式.png in Resources */,
 				0A03666722F913FD00AE6D43 /* Head First Design Patterns_设计模式.pdf in Resources */,
 				0A03665D22F913E300AE6D43 /* 抽象工厂模式.png in Resources */,
 			);
@@ -251,14 +287,18 @@
 			files = (
 				0A2A609D22FAB3A900F9C187 /* FacadePattern.swift in Sources */,
 				0A6F85F2230FD56D00A5E966 /* TemplateMethodPattern.swift in Sources */,
+				0560E783236049B600C2C5E7 /* IteratorPattern.swift in Sources */,
 				0A03665522F913E300AE6D43 /* FactoryPattern.swift in Sources */,
+				0538B6BF237400B200CC44CF /* CompositePattern.swift in Sources */,
 				0A03665922F913E300AE6D43 /* StrategyPattern.swift in Sources */,
 				0A03665322F913E300AE6D43 /* DecoratorPattern.swift in Sources */,
 				0A03665422F913E300AE6D43 /* DesignPatterns.swift in Sources */,
+				05E368B0237BEEBC00C7D962 /* StatePattern.swift in Sources */,
 				0A03666922F9144400AE6D43 /* AdapterPattern.swift in Sources */,
 				0ADBDBFE22F3C4DF0037514F /* ViewController.swift in Sources */,
 				0A03665822F913E300AE6D43 /* Singleton Pattern.swift in Sources */,
 				0A03665222F913E300AE6D43 /* Command Pattern.swift in Sources */,
+				050352ED2384E68800150D3C /* ProxyPattern.swift in Sources */,
 				0ADBDBFC22F3C4DF0037514F /* AppDelegate.swift in Sources */,
 				0A03665722F913E300AE6D43 /* ObservePattern.swift in Sources */,
 			);

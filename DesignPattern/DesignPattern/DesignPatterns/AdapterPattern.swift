@@ -197,3 +197,49 @@ class TurkeyAdapter: Duck2{
         }        
     }
 }
+
+
+
+
+
+//MARK:---------测试用例
+func test_AdapterPattern(){
+    print("==============适配器模式==============")
+    //创建笔记本对象
+    let macBookPro : MacBookPro = MacBookPro()
+    //创建macbookpro所用电池的对象
+    let macBookProBattery = MacBookProBattery()
+    //创建电源对象
+    let socket :SocketType = Socket()
+    //创建适配器“对象适配器”的对象
+    let macBookProObjectAdapter = MacPowerObjectAdapter()
+    //创建“类适配器”对象
+    let macBookProClassAdapter = MacPowerClassAdapter()
+    print("笔记本使用电池")
+    macBookPro.connectPowerSource(macBookProBattery)
+    macBookPro.inputVoltage()
+    print("\n 电池没电了，使用对象适配器")
+    //适配器插入插座
+    macBookProObjectAdapter.insertSocket(socket)
+    //macbookpro连接适配器
+    macBookPro.connectPowerSource(macBookProObjectAdapter)
+    //电流输出
+    macBookPro.inputVoltage()
+    print("\n 使用类适配器")
+    macBookPro.connectPowerSource(macBookProClassAdapter)
+    macBookPro.inputVoltage()
+    print("============示例2:火鸡适配器")
+    var duck22 : Duck2 = MallardDuck2()
+    var turkey: Turkey = wildTurkey()
+    var turkeyAdapter: Duck2 = TurkeyAdapter(turkey)
+    print("the turkey says......")
+    turkey.gobble()
+    turkey.fly()
+    print("the duck says......")
+    duck22.quack()
+    duck22.fly()
+    print("the adapter says......")
+    turkeyAdapter.quack()
+    turkeyAdapter.fly()
+    print("\n")
+}

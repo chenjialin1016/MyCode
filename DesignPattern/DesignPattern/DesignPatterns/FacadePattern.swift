@@ -98,3 +98,36 @@ class EveryDayWorking{
         socket.off()
     }
 }
+
+
+
+
+
+
+
+
+
+//MARK:---------测试用例
+func test_FacadePattern(){
+    print("==============外观模式==============")
+    print("============示例1:无外观模式")
+    //创建所需的对象
+    let oxSocket: SocketType2 = OXSocket()
+    let macbookpro: ComputerType = Macbookpro()
+    let samsungDisplay: DisplayDeviceType = SamsungDisplay()
+    print("每天上班要做的三件事：")
+    oxSocket.on()
+    macbookpro.start()
+    samsungDisplay.on()
+    print("\n每天下班要做的三件事：")
+    samsungDisplay.off()
+    macbookpro.shutdown()
+    oxSocket.off()
+    print("============示例2:外观模式")
+    //给小弟派工作
+    let everyDayWorking = EveryDayWorking()
+    everyDayWorking.startWorking()
+    print("\n")
+    everyDayWorking.endWorking()
+    print("\n")
+}

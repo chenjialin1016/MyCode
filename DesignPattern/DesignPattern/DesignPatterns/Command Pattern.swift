@@ -89,3 +89,19 @@ class Console{
         command?.execute()
     }
 }
+
+
+
+
+//MARK:---------测试用例
+func test_CommandPattern(){
+    print("==============命令模式==============")
+    var console : Console = Console()
+    console.setCommand(LightOnCommand())
+    console.action()
+    console.setCommand(LightOffCommand())
+    console.action()
+    console.setCommand(ComputerStartCommand())
+    console.action()
+    print("\n")
+}

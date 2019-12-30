@@ -354,3 +354,42 @@ class Coder2:NSObject{
         MyCustomNotificationCenter.defaultCenter().removeObserver(self, "Boss2")
     }
 }
+
+
+
+
+
+//MARK:---------测试用例
+func test_ObservePattern(){
+    print("==============观察者模式==============")
+    //创建boss
+    let bossSubject : Boss = Boss()
+    //创建观察者
+    let coderObserver : Coder = Coder()
+    let PMObserver : PM = PM()
+    //添加观察者
+    bossSubject.registerObserver(coderObserver)
+    bossSubject.registerObserver(PMObserver)
+    print(bossSubject.observersArray)
+    bossSubject.setInfo("第一次通知")
+    //程序员走出了会议室（移除通知）
+    bossSubject.removeObserver(coderObserver)
+    bossSubject.setInfo("第二次通知")
+    print("------Foundation自带的通知模式")
+    let boss1 = Boss1()
+    let coder1 = Coder1()
+    coder1.observerBoss()
+    boss1.sendMessage("涨工资啦")
+    print("------自定义的通知中心")
+    let boss2 = Boss2()
+    let coder2 = Coder2()
+    let coder3 = Coder2()
+    coder2.observerBoss()
+    coder3.observerBoss()
+    boss2.sendMessage("涨工资啦")
+    print("------气象观测")
+    let weatherData : WeatherData = WeatherData()
+    let currentConditions = CurrentConditionsDisplay(weatherData)
+    weatherData.setMeasurements(20, 34, 40)
+    print("\n")
+}

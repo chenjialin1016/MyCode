@@ -171,3 +171,33 @@ class Milk : CondimenDecorator{
     }
     
 }
+
+
+
+
+
+
+//MARK:---------测试用例
+func test_DecoratorPattern(){
+    print("==============装饰者模式==============")
+    print("------示例1")
+    //创建空花瓶
+    var porcelain : VaseComponent = Porcelain()
+    //打印最新的描述信息
+    porcelain.display()
+    //插入玫瑰
+    porcelain = Rose(porcelain)
+    //插入百合
+    porcelain = Lily(porcelain)
+    //打印最新的描述信息
+    porcelain.display()
+    print("------示例2")
+    //创建浓缩咖啡
+    var espresso : Beverage = Espresso()
+    //用户点了一杯牛奶摩卡浓缩咖啡
+    espresso = Milk(espresso)
+    espresso = Mocha(espresso)
+    print(espresso.getDescription())
+    print(espresso.cost())
+    print("\n")
+}
